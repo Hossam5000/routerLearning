@@ -1,23 +1,23 @@
-// imports
-import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "@/views/HomeView.vue";
-import AboutView from "@/views/AboutView.vue";
+    // imports
+    import { createRouter, createWebHistory } from "vue-router";
+    import HomeView from "@/views/HomeView.vue";
+    import AboutView from "@/views/AboutView.vue";
 
-// cons & vars
-const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
-    routes: [
-        {
-            path: "/",
-            name: "Home",
-            component: HomeView
-        },
-        {
-            path: "/about",
-            name: "About",
-            component: AboutView
-        }
-    ]
-});
+    // cons & vars
+    const router = createRouter({
+        history: createWebHistory(import.meta.env.BASE_URL),
+        routes: [
+            {
+                path: "/",
+                name: "Home",
+                component: HomeView
+            },
+            {
+                path: "/about",
+                name: "About",
+                component: AboutView
+            }
+        ]
+    });
 
-export default router
+    export default router
