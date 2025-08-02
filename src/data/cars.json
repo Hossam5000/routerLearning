@@ -3,30 +3,50 @@
     "name": "chavy",
     "id": 1,
     "price": 15000,
-    "year": 2015
+    "year": 2015,
+    "contact":{
+      "name": "Laith",
+      "number": "111-111-1111"
+    }
 },
   {
     "name": "Bently",
     "id": 2,
     "price": 215000,
-    "year": 2021
+    "year": 2021,
+    "contact":{
+      "name": "Turner",
+      "number": "444-444-4444"
+    }
 },
   {
     "name": "Ford",
     "id": 3,
     "price": 5000,
-    "year": 2005
+    "year": 2005,
+    "contact":{
+      "name": "Sam",
+      "number": "222-222-2222"
+    }
 },
   {
     "name": "Land Lover",
     "id": 4,
     "price": 85000,
-    "year": 2019
+    "year": 2019,
+    "contact":{
+      "name": "Ed",
+      "number": "333-333-3333"
+    }
 },
   {
     "name": "Nissan",
     "id": 5,
     "price": 25000,
-    "year": 2010
+    "year": 2010,
+    "contact":{
+      "name": "Jess",
+      "number": "555-555-5555"
+    }
 }
 ]
