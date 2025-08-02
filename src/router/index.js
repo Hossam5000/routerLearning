@@ -3,7 +3,7 @@
     import HomeView from "@/views/HomeView.vue";
     import AboutView from "@/views/AboutView.vue";
     import CarView from "@/views/CarView.vue";
-import ContactView from "@/views/ContactView.vue";
+    import ContactView from "@/views/ContactView.vue";
 
     // cons & vars
     const router = createRouter({

@@ -5,7 +5,7 @@
     "price": 15000,
     "year": 2015,
     "contact":{
-      "name": "Laith",
+      "dealer": "Laith",
       "number": "111-111-1111"
     }
 },
@@ -15,7 +15,7 @@
     "price": 215000,
     "year": 2021,
     "contact":{
-      "name": "Turner",
+      "dealer": "Turner",
       "number": "444-444-4444"
     }
 },
@@ -25,7 +25,7 @@
     "price": 5000,
     "year": 2005,
     "contact":{
-      "name": "Sam",
+      "dealer": "Sam",
       "number": "222-222-2222"
     }
 },
@@ -35,7 +35,7 @@
     "price": 85000,
     "year": 2019,
     "contact":{
-      "name": "Ed",
+      "dealer": "Ed",
       "number": "333-333-3333"
     }
 },
@@ -45,7 +45,7 @@
     "price": 25000,
     "year": 2010,
     "contact":{
-      "name": "Jess",
+      "dealer": "Jess",
       "number": "555-555-5555"
     }
 }
