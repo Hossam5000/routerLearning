@@ -2,6 +2,7 @@
     import { createRouter, createWebHistory } from "vue-router";
     import HomeView from "@/views/HomeView.vue";
     import AboutView from "@/views/AboutView.vue";
+    import CarView from "@/views/CarView.vue";
 
     // cons & vars
     const router = createRouter({
@@ -16,6 +17,11 @@
                 path: "/about",
                 name: "About",
                 component: AboutView
+            },
+            {
+                path: "/cars/:id",
+                name: "car",
+                component: CarView
             }
         ]
     });

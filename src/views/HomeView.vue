@@ -8,7 +8,7 @@ import { RouterLink } from "vue-router";
     <div>
         <h1>Home</h1>
         <div class="cars">
-            <RouterLink to="`/cars/${car.id}`" class="car" href="" v-for="car in cars" :key="car.id">{{ car.name }}</RouterLink>
+            <RouterLink :to="`/cars/${car.id}`" class="car" v-for="car in cars" :key="car.id">{{ car.name }}</RouterLink>
         </div>
     </div>
 </template>
